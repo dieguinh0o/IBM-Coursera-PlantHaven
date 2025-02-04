@@ -1,0 +1,36 @@
+.Hero-Container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.HeroGrid-Container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+.HeroItems-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(64, 41, 41);
+    grid-column: 1 / 6;
+    grid-row: 2 / 5;
+    height: 100%;
+    width: 80%;
+}
+
+.Tagline {
+    text-align: left;
+}
+
+.Description {
+    text-align: justify;
+}
+
