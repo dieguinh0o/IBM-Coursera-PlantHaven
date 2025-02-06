@@ -32,7 +32,7 @@ export default function NavBar() {
                         <h1 className="title">{title}</h1>
                     </div>
                     <div className="nav-right">
-                        <Link to="Shop" id="back-to-shop"><IoIosArrowBack className="icon back-icon"/> <p>Back to Shop</p></Link>
+                        <Link to="Shop" id="back-to-shop"><IoIosArrowBack className="icon back-icon"/><p>Back to Shop</p></Link>
                         <Link to="Checkout">
                             <div className="cart-container">
                                 <span className="item-count">{cart.length}</span>

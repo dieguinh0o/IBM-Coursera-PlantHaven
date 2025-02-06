@@ -1,7 +1,7 @@
 export default interface CatalogItem {
     Name: string;
-    Price: string;
+    Price: number;
     Image: string;
     Description: string;
     Id: number;
-} 
+}   

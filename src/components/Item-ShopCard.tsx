@@ -56,7 +56,7 @@ export default function ShopItemCard(props:ShopItemCardProps) {
         <h2>{item.Name}</h2>
         <img src={item.Image} alt={item.Name} />
         <p className="description">{item.Description}</p>
-        <p className="price">{item.Price}</p>
+        <p className="price">${item.Price}</p>
         <button onClick={handleButtonClick} style={{ backgroundColor: buttonState.color }}>
           {buttonState.text}
         </button>

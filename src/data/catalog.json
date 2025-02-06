@@ -1,56 +1,56 @@
 [
     {
       "Name": "Snake Plant",
-      "Price": "$25",
+      "Price": 25,
       "Image": "snake-plant.jpeg",
       "Description": "The snake plant is a great air purifier and is easy to take care of. It is a great plant for beginners.",
       "Id": 1
     },
     {
       "Name": "Aloe Vera",
-      "Price": "$20",
+      "Price": 20,
       "Image": "aloe-vera.jpg",
       "Description": "Aloe Vera is known for its medicinal properties and is easy to grow indoors.",
       "Id": 2
     },
     {
       "Name": "Spider Plant",
-      "Price": "$15",
+      "Price": 15,
       "Image": "spider-plant.jpg",
       "Description": "Spider plants are great for improving indoor air quality and are very low maintenance.",
       "Id": 3
     },
     {
       "Name": "Peace Lily",
-      "Price": "$30",
+      "Price": 30,
       "Image": "peace-lily.jpg",
       "Description": "Peace lilies are beautiful and help to filter indoor air pollutants.",
       "Id": 4
     },
     {
       "Name": "Orchid",
-      "Price": "$35",
+      "Price": 35,
       "Image": "orchid.jpg",
       "Description": "Orchids are elegant flowers that come in a variety of colors and are perfect for adding a touch of beauty to any room.",
       "Id": 5
     },
     {
       "Name": "Tulip",
-      "Price": "$25",
+      "Price": 25,
       "Image": "tulip.jpg",
       "Description": "Tulips are vibrant and colorful flowers that are perfect for springtime decoration.",
       "Id": 6
     },
     {
       "Name": "Jade Plant",
-      "Price": "$22",
+      "Price": 22,
       "Image": "jade-plant.jpg",
       "Description": "Jade plants are succulents that are easy to care for and are believed to bring good luck.",
       "Id": 7
     },
     {
       "Name": "Lavender",
-      "Price": "$28",
+      "Price": 28,
       "Image": "lavender.jpg",
       "Description": "Lavender is known for its soothing fragrance and beautiful purple flowers.",
       "Id": 8

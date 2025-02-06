@@ -1,28 +1,61 @@
 import './Checkout.css';
 import {getCart} from '../contexts/Cart.jsx';
+import CheckoutCard from '../components/Item-Checkout.js';
+import { useState, useEffect } from 'react';
+import Cart from '../types/Cart-Interface.js';
+import {useNavigate} from "react-router-dom"
 
 
-export default function Checkout() {
 
+function CartTotalValue(cart:Cart) {
+  return cart.reduce((total, item) => total + item.Item.Price * item.Quantity, 0);
+}
+
+export default function Checkout() { 
   const {cart} = getCart();
+  const [totalPrice, setTotalPrice] = useState(CartTotalValue(cart));
+  const [totalItems, setTotalItems] = useState(cart.length);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    setTotalPrice(CartTotalValue(cart));
+    setTotalItems(cart.length);
+  }, [cart])
+
+  function handleBackNavigate () {
+    navigate(-1);
+  }
+  function handleCartLogic() {
+    if(cart.length >= 1) {
+      return (
+        <ul className="cart-item-list">
+          {cart.map((item) => (
+            <li key={item.Item.Id} className='item-container'>
+              <CheckoutCard Item={item}/>
+            </li>
+          ))}
+        </ul>
+      )
+
+    } else {
+        return(
+        <>
+          <p>Cart is empty.</p>
+          <button onClick={handleBackNavigate}>Return to Shop</button>
+        </>
+        )
+    }
+  }
 
   return (
     <div>
       <h1>Cart</h1>
-      <div className='cart-container'>
-        <ul className="cart-item-list">
-          {cart.map((item) => (
-            <li key={item.Item.Id} className='item-container'>
-              <h2 className='item-name'>{item.Item.Name}</h2>
-              <img src={item.Item.Image} alt={item.Item.Name} className='item-img'/>
-              <p className="item-price">{item.Item.Price}</p>
-              <p className='item-quantity-tooltip'>Quantity:</p>
-              <button className='item-btn item-btn-subtract'>-</button>
-              <span className='item-quantity'>{item.Quantity}</span>
-              <button className='item-btn item-btn-add'>+</button>
-            </li>
-          ))}
-        </ul>
+      <div className='cart-detail-container'>
+          <h3>Total Price: ${totalPrice}</h3>
+          <h6>Total Plants: {totalItems}</h6>
+      </div>
+      <div className='cartItems-container'>
+      {handleCartLogic()}
       </div>
     </div>
   )
