@@ -35,7 +35,3 @@
   .item-container:last-child {
     margin-bottom: 0;
   }
-
-  body {
-    overflow: hidden;
-  }

@@ -34,6 +34,7 @@ export default function Checkout() {
               <CheckoutCard Item={item}/>
             </li>
           ))}
+          <button>Checkout Comming Soon</button>
         </ul>
       )
 
