@@ -15,7 +15,6 @@ export default function Shop() {
 
     return (
     <div className="shop-page-container">
-      <h1>Air Purifying Plants</h1>
       <div className='shop-container'>
         <ul className="shop-item-list">
           {plants}

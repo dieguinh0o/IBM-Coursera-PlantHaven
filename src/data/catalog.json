@@ -1,58 +1,130 @@
 [
-    {
-      "Name": "Snake Plant",
-      "Price": 25,
-      "Image": "snake-plant.jpeg",
-      "Description": "The snake plant is a great air purifier and is easy to take care of. It is a great plant for beginners.",
-      "Id": 1
-    },
-    {
-      "Name": "Aloe Vera",
-      "Price": 20,
-      "Image": "aloe-vera.jpg",
-      "Description": "Aloe Vera is known for its medicinal properties and is easy to grow indoors.",
-      "Id": 2
-    },
-    {
-      "Name": "Spider Plant",
-      "Price": 15,
-      "Image": "spider-plant.jpg",
-      "Description": "Spider plants are great for improving indoor air quality and are very low maintenance.",
-      "Id": 3
-    },
-    {
-      "Name": "Peace Lily",
-      "Price": 30,
-      "Image": "peace-lily.jpg",
-      "Description": "Peace lilies are beautiful and help to filter indoor air pollutants.",
-      "Id": 4
-    },
-    {
-      "Name": "Orchid",
-      "Price": 35,
-      "Image": "orchid.jpg",
-      "Description": "Orchids are elegant flowers that come in a variety of colors and are perfect for adding a touch of beauty to any room.",
-      "Id": 5
-    },
-    {
-      "Name": "Tulip",
-      "Price": 25,
-      "Image": "tulip.jpg",
-      "Description": "Tulips are vibrant and colorful flowers that are perfect for springtime decoration.",
-      "Id": 6
-    },
-    {
-      "Name": "Jade Plant",
-      "Price": 22,
-      "Image": "jade-plant.jpg",
-      "Description": "Jade plants are succulents that are easy to care for and are believed to bring good luck.",
-      "Id": 7
-    },
-    {
-      "Name": "Lavender",
-      "Price": 28,
-      "Image": "lavender.jpg",
-      "Description": "Lavender is known for its soothing fragrance and beautiful purple flowers.",
-      "Id": 8
-    }
-  ]
+  {
+    "Name": "Snake Plant",
+    "Price": 25,
+    "Image": "snake-plant.jpeg",
+    "Description": "The snake plant is a great air purifier and is easy to take care of. It is a great plant for beginners.",
+    "Id": 1,
+    "Category": "Indoor"
+  },
+  {
+    "Name": "Aloe Vera",
+    "Price": 20,
+    "Image": "aloe-vera.jpg",
+    "Description": "Aloe Vera is known for its medicinal properties and is easy to grow indoors.",
+    "Id": 2,
+    "Category": "Medicinal"
+  },
+  {
+    "Name": "Spider Plant",
+    "Price": 15,
+    "Image": "spider-plant.jpg",
+    "Description": "Spider plants are great for improving indoor air quality and are very low maintenance.",
+    "Id": 3,
+    "Category": "Indoor"
+  },
+  {
+    "Name": "Peace Lily",
+    "Price": 30,
+    "Image": "peace-lily.jpg",
+    "Description": "Peace lilies are beautiful and help to filter indoor air pollutants.",
+    "Id": 4,
+    "Category": "Indoor"
+  },
+  {
+    "Name": "Orchid",
+    "Price": 35,
+    "Image": "orchid.jpg",
+    "Description": "Orchids are elegant flowers that come in a variety of colors and are perfect for adding a touch of beauty to any room.",
+    "Id": 5,
+    "Category": "Flowering"
+  },
+  {
+    "Name": "Tulip",
+    "Price": 25,
+    "Image": "tulip.jpg",
+    "Description": "Tulips are vibrant and colorful flowers that are perfect for springtime decoration.",
+    "Id": 6,
+    "Category": "Flowering"
+  },
+  {
+    "Name": "Jade Plant",
+    "Price": 22,
+    "Image": "jade-plant.jpg",
+    "Description": "Jade plants are succulents that are easy to care for and are believed to bring good luck.",
+    "Id": 7,
+    "Category": "Succulent"
+  },
+  {
+    "Name": "Lavender",
+    "Price": 28,
+    "Image": "lavender.jpg",
+    "Description": "Lavender is known for its soothing fragrance and beautiful purple flowers.",
+    "Id": 8,
+    "Category": "Flowering"
+  },
+  {
+    "Name": "Rose",
+    "Price": 40,
+    "Image": "rose.jpg",
+    "Description": "Roses are classic flowers that symbolize love and beauty. They come in a variety of colors.",
+    "Id": 9,
+    "Category": "Flowering"
+  },
+  {
+    "Name": "Sunflower",
+    "Price": 15,
+    "Image": "sunflower.jpg",
+    "Description": "Sunflowers are bright and cheerful flowers that are perfect for summer decoration.",
+    "Id": 10,
+    "Category": "Flowering"
+  },
+  {
+    "Name": "Cactus",
+    "Price": 18,
+    "Image": "cactus.jpg",
+    "Description": "Cacti are low-maintenance plants that thrive in dry environments and add a unique touch to any space.",
+    "Id": 11,
+    "Category": "Succulent"
+  },
+  {
+    "Name": "Bonsai",
+    "Price": 50,
+    "Image": "bonsai.jpg",
+    "Description": "Bonsai trees are miniature trees that are cultivated for their beauty and tranquility.",
+    "Id": 12,
+    "Category": "Indoor"
+  },
+  {
+    "Name": "Fern",
+    "Price": 20,
+    "Image": "fern.jpg",
+    "Description": "Ferns are lush, green plants that thrive in humid environments and add a touch of nature to any room.",
+    "Id": 13,
+    "Category": "Indoor"
+  },
+  {
+    "Name": "Bamboo",
+    "Price": 25,
+    "Image": "bamboo.jpg",
+    "Description": "Bamboo plants are known for their fast growth and are often used as a symbol of luck and prosperity.",
+    "Id": 14,
+    "Category": "Indoor"
+  },
+  {
+    "Name": "Mint",
+    "Price": 10,
+    "Image": "mint.jpg",
+    "Description": "Mint is a fragrant herb that is easy to grow and can be used in a variety of culinary dishes.",
+    "Id": 15,
+    "Category": "Herb"
+  },
+  {
+    "Name": "Basil",
+    "Price": 12,
+    "Image": "basil.jpg",
+    "Description": "Basil is a popular herb that is commonly used in cooking and is easy to grow indoors.",
+    "Id": 16,
+    "Category": "Herb"
+  }
+]
