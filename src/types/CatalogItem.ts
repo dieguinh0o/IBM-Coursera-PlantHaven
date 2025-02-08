@@ -4,4 +4,5 @@ export default interface CatalogItem {
     Image: string;
     Description: string;
     Id: number;
+    Category: string;
 }   
