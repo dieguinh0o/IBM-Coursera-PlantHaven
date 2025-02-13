@@ -45,3 +45,12 @@ h1 {
         flex: 0 0 100%; /* Fixed size for 1 item per row on very small screens */
     }
 }
+
+.Category-Header {
+    align-self: center;
+    text-align: center;
+}
+.CategorySection-Container {
+    padding-top: 5%;
+}
+

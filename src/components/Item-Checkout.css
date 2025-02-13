@@ -82,3 +82,12 @@
   .checkout-item-card .item-btn-subtract:hover {
     background-color: #e53935;
   }
+
+  .checkout-item-card .item-btn-remove {
+    background-color: #e53935;
+  }
+
+  .checkout-item-card .item-btn-remove:hover {
+    background-color: #7a1b1a;
+  }
+

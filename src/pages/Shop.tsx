@@ -21,7 +21,7 @@ function splitCatalogIntoCategories(catalog:CatalogItem[], categories:string[]) 
   categories.forEach((category:string) => {
     const NewSection:CatalogSection = {
       Category: category,
-      Items: catalog.filter(item => item.Category !== category)
+      Items: catalog.filter(item => item.Category === category)
     }
     OrganizedCatalog.push(NewSection);
   })
@@ -36,12 +36,14 @@ function renderShop(catalog:CatalogSection[]) {
           <ItemCard Item={item}></ItemCard>
         </li>
         )}
-      )
+      ) 
     return (
       <>
       <div className='CategorySection-Container'>
         <h3 className='Category-Header'>{section.Category}</h3>
-        {ItemCards}
+        <ul className='shop-item-list'>
+          {ItemCards}
+        </ul>
       </div>
       </>
     )

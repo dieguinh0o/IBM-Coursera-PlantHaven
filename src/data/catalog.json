@@ -66,7 +66,7 @@
   {
     "Name": "Rose",
     "Price": 40,
-    "Image": "rose.jpg",
+    "Image": "rose.jpeg",
     "Description": "Roses are classic flowers that symbolize love and beauty. They come in a variety of colors.",
     "Id": 9,
     "Category": "Flowering"
@@ -82,7 +82,7 @@
   {
     "Name": "Cactus",
     "Price": 18,
-    "Image": "cactus.jpg",
+    "Image": "cactus.jpeg",
     "Description": "Cacti are low-maintenance plants that thrive in dry environments and add a unique touch to any space.",
     "Id": 11,
     "Category": "Succulent"
@@ -114,7 +114,7 @@
   {
     "Name": "Mint",
     "Price": 10,
-    "Image": "mint.jpg",
+    "Image": "mint.jpeg",
     "Description": "Mint is a fragrant herb that is easy to grow and can be used in a variety of culinary dishes.",
     "Id": 15,
     "Category": "Herb"
